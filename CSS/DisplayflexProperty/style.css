@@ -1,0 +1,17 @@
+#maindiv{
+    width: 700px;
+    height: 700px;
+    border: 1px solid #000;
+    background-color: aqua;
+   flex-direction: column;
+    display: flex;
+    /* gap: 10px;  */
+    justify-content: space-around; 
+    align-items:center;
+}
+.subdiv{
+    width: 60px ;
+    height: 60px;
+    border: 1px solid #000;
+    background-color: beige;
+}

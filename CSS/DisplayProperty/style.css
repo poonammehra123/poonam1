@@ -1,0 +1,14 @@
+#s1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    display: inline-block;
+    
+}
+
+#d1, #d2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    display: inline-block;
+}

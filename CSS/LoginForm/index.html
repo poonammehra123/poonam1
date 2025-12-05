@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+    background-color: aliceblue;
+   
+}
+
+#mainbox{
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:white;
+    border: 1px solid #0c0a0a;
+    box-shadow: 2px 2px 1px 1px gray;
+
+}
+
+#formheading{
+    text-align: center;
+    color: blue;
+}
+
+#loginform{
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+.formfield {
+    padding:10px;
+    
+   label{
+    text-align: large;
+    color: black;
+}
+
+
+}
+.formfield .input{
+    padding: 10px;
+    border-radius: 25px;
+    outline-color: red;
+    border: 1px solid #545252;
+}
+
+#fromcontrol{
+    margin: auto;
+    width: fit-content;
+    button{
+        padding: 7px;
+        margin:  10px;
+        border-radius: 25px;
+    }
+}
+
+#submitbutton{
+    background-color: green;
+    color: greenyellow;
+    border: 1px solid red;
+
+}
+#cancelbutton{
+    background-color:red ;
+    color: white;
+    border: 1px solid red;
+}
+
+#submitbutton:hover{
+    background-color: white;
+    color: red;
+}
+
+#submitbutton:active{
+    background-color: blue;
+    color: white;
+}</style>
+
+</head>
+<body>
+   <center><div id="mainbox">
+    <h1 id="formheading">User login</h1>
+    
+    <div class="loginform">
+        <div class="formfield">
+            <label for="username" >username :</label>
+            <input type="text" name="username" id="username" > 
+        </div>
+        <div class="formfield">
+            <label for="password">password :</label>
+            <input type="text" name="password" id="pasword" autocomplete="off">
+        </div>
+        <div class="formcontrol">
+        <button id="cancelbutton">cancel</button>
+        <button id="submitbutton">submit</button>
+
+        </div>
+    </div>
+   </div> </center>
+</body>
+</html>

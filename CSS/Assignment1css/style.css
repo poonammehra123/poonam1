@@ -1,0 +1,363 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #0a6cff, #4db8ff);
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-box {
+    width: 350px;
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+   border-bottom: #000;
+    
+}
+
+.form-box span {
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #0a6cff;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+  
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* outline: none;
+    border-bottom: transparent;
+    border: 0; */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0a6cff;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #0a6cff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #004bbb;
+}
+
+.form-box p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-box p a {
+    color: #0a6cff;
+    text-decoration: none;
+}
+
+.form-box p a:hover {
+    text-decoration: underline;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* body{
+    background-color: blue;
+}
+
+#mainbox{
+    background-color: white;
+    /* border-radius: 1px solid #000; */
+    /* width: 500px;
+    height: 500px;
+   margin:  20px;
+   padding: 10px;
+} */
+
+/* .formFeild{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#loginFrom{
+    padding:40px 35px; 
+}
+
+.options{
+justify-content: space-between;
+font-size: large; 
+
+ margin-bottom : 20px;
+} */
+ */
+
+
+
+
+
+
+
+/* body{
+    background-color: blue;
+}
+#mainBox{
+    background-color: white;
+    border-radius: 1px solid #000;
+    width:300px ;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+
+}
+#headingForm{
+    text-align: left;
+
+}
+
+#loginFrom{
+    padding:40px 35px; */
+/* 
+}
+.formFeild{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+
+    label{
+        background-color: white;
+        margin-right: 8px ;
+        font-size: 18px;
+    }
+    input{
+        width: 500px;
+        padding: 500px;
+        border: none;
+        border: 1px soild #000;
+        overflow: nonet;
+        font-size: 15px;
+        background: transparent;
+        display: inline-block;
+    }
+}
+.eye{
+    right: 5px;
+    font-size: 18px;
+    color: gray;
+
+}
+.options{
+justify-content: space-between;
+font-size: large; */
+
+/* margin-bottom: 20px;
+a{
+    font-size: large;
+    align-items: left;
+    color: blue;
+    text-decoration: none;   
+ }
+} 
+.options a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+
+
+}
+.sigup{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    a{
+        color:blue;
+        text-decoration: none;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: blue;
+    display: inline-block;
+}
+#mainBox{
+    background-color: white;
+    border-radius: 1px solid #000;
+    width:500px ;
+    height: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    display: inline-block;
+
+}
+#headingForm{
+    text-align: left ;
+
+}
+
+#loginFrom{
+    padding:40px 35px;
+
+}
+.formFeild{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+
+    label{
+        background-color: white;
+        margin-right: 8px ;
+        font-size: 18px;
+    }
+    input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px soild black;
+        overflow: nonet;
+        font-size: 15px;
+        background: transparent;
+    }
+}
+.eye{
+    right: 5px;
+    font-size: 18px;
+    color: gray;
+
+}
+.options{
+justify-content: space-between;
+font-size: large;
+
+margin-bottom: 20px;
+a{
+    font-size: large;
+    align-items: left;
+    color: blue;
+    text-decoration: none;   
+ }
+} 
+.options a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+
+
+}
+.sigup{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    a{
+        color:blue;
+        text-decoration: none;
+    }
+}
+
+ 
