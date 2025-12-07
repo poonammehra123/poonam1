@@ -23,3 +23,98 @@ button{
     background-color: yellow;
 }
 
+colorpalet{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+#c1{
+    background-color: violet;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+
+}
+
+#c2{
+    background-color: indigo;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#c3{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#c4{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#c5{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#c6{
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+
+#c7{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.color{
+    height:100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: default;
+}
